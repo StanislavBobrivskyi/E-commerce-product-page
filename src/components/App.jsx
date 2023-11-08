@@ -6,7 +6,7 @@ export function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/E-commerce-product-page" element={<Home />} />
       </Routes>
     </Router>
   );
