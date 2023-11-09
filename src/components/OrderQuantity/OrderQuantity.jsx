@@ -11,9 +11,9 @@ export function OrderQuantity() {
 
   const decrement = () => {
     if (count === 0) {
-      toast.error('Значення не може бути менше нуля!', {
+      toast.error('you must choose at least one', {
         position: 'top-center',
-        autoClose: 2000, // Автоматично закрити сповіщення через 2 секунди
+        autoClose: 1000, // Автоматично закрити сповіщення через 1 секунди
       });
     } else {
       setCount(count - 1);
