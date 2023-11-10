@@ -9,13 +9,20 @@ export function HomePage() {
 
       {/* Розділ з описом */}
       <section>
-        <h3>Опис</h3>
-        <p>Тут буде опис вашого веб-сайту або продукту.</p>
+        <p>Sneaker Company</p>
+        <h3>Fall Limited Edition Sneakers</h3>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
       </section>
 
       {/* Інтерактивна секція (завтра буде) */}
       <section>
-        <h3>Інтерактивна секція</h3>
+        <h3>$125.00</h3>
+        <span>50%</span>
+        <span>$250.00</span>
         <OrderQuantity />
       </section>
 

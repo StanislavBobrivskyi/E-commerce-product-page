@@ -23,7 +23,7 @@ export function OrderQuantity() {
 
   return (
     <div>
-      <p>Лічильник: {count}</p>
+      <p> {count}</p>
       <button onClick={decrement}>-</button>
       <button onClick={increment}>+</button>
       <ToastContainer />
