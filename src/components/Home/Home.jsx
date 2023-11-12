@@ -1,3 +1,4 @@
+import ImageGallery from 'components/ImageGalery/ImageGalery';
 import { OrderBtn } from 'components/OrderBtn/OrderBtn';
 import { OrderQuantity } from 'components/OrderQuantity/OrderQuantity';
 import React from 'react';
@@ -32,6 +33,7 @@ export function HomePage() {
         {/* Галерея з картинками тут */}
       </section>
       <OrderBtn />
+      <ImageGallery />
     </div>
   );
 }

@@ -6,7 +6,7 @@ const ImageGallery = () => {
   const [photoIndex, setPhotoIndex] = useState(0);
 
   const images = [
-    'image1.jpg',
+    'https://github.com/StanislavBobrivskyi/E-commerce-product-page/blob/main/public/ecommerce-product-page-main/images/image-product-1-thumbnail.jpg',
     'image2.jpg',
     'image3.jpg',
     // ...additional images
