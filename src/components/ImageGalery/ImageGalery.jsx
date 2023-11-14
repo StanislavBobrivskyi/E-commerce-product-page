@@ -6,17 +6,26 @@ const ImageGallery = () => {
   const [photoIndex, setPhotoIndex] = useState(0);
 
   const images = [
-    // '/public/ecommerce-product-page-main/images/image-product-2-thumbnail.jpg',
-    // '/public/ecommerce-product-page-main/images/image-product-1.jpg',
-    // '/public/ecommerce-product-page-main/images/image-product-2.jpg',
-
-    [
-      {
-        src: 'https://github.com/StanislavBobrivskyi/E-commerce-product-page/blob/main/public/ecommerce-product-page-main/images/image-product-1.jpg',
-        title: 'image title',
-        description: 'image description',
-      },
-    ],
+    {
+      src: '../images/image-product-1-thumbnail.jpg',
+      title: 'Image Title 1',
+      description: 'Image Description 1',
+    },
+    {
+      src: '../images/image-product-2-thumbnail.jpg',
+      title: 'Image Title 2',
+      description: 'Image Description 2',
+    },
+    {
+      src: '../images/image-product-3-thumbnail.jpg',
+      title: 'Image Title 3',
+      description: 'Image Description 3',
+    },
+    {
+      src: '../images/image-product-4-thumbnail.jpg',
+      title: 'Image Title 4',
+      description: 'Image Description 4',
+    },
   ];
 
   return (
